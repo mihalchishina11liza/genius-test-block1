@@ -1,0 +1,97 @@
+/* main */
+:root {
+  --primary-green: #819b57;
+  --primary-dark: #31261a;
+  --primary-light: #faf4ea;
+  --secondary-green: #465929;
+  --secondary-dark: #a18268;
+  --secondary-light: #cfcfbc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  color: var(--primary-dark);
+  background-color: darkolivegreen;
+}
+
+/* button */
+.button {
+  color: #faf4ea;
+  background-color: var(--primary-green);
+  border: 2px solid var(--primary-green);
+  border-radius: 8px;
+}
+
+.button:hover {
+  color: var(--primary-dark);
+  background-color: transparent;
+}
+
+/* links */
+.link {
+  color: var(--primary-light);
+}
+
+.link:hover {
+  color: var(--primary-green);
+}
+
+/* hero title */
+.hero-title {
+  color: var(--primary-light);
+}
+
+.hero-title .accent {
+  color: var(--primary-green);
+}
+
+/* advantages list*/
+.advantages-list {
+  color: var(--primary-light);
+  background-color: var(--primary-green);
+}
+
+/* traditions section PARAGRAPH */
+.paragraph .accent {
+  color: var(--primary-green);
+}
+
+.paragraph .caps {
+  color: var(--primary-green);
+  text-transform: uppercase;
+}
+
+/* traditions section PHOTO */
+
+/* coockers title */
+.accent {
+  color: var(--secondary-green);
+}
+
+/* coockers section PTHOTO */
+
+/* formats article */
+.formats {
+  color: var(--primary-light);
+}
+
+/* contacts section PARAGRAPH */
+.accent {
+  color: var(--secondary-green);
+}
+
+/* footer zone */
+.address {
+  color: var(--primary-light);
+}
+
+.politic {
+  color: var(--primary-light);
+}
+
+.cr {
+  color: var(--secondary-dark);
+}
